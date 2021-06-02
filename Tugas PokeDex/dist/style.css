@@ -1,0 +1,320 @@
+body {
+  font-family: Roboto;
+}
+
+tr {
+  border-bottom: none;
+}
+
+#logo-container {
+  text-align: center;
+  padding: 15px;
+  height: 64px;
+  background: #F1F0F0;
+}
+
+header, main, footer {
+    padding-left: 300px;
+}
+
+nav {
+  background: #F1F0F0;
+  box-shadow: none;
+  -webkit-box-shadow: none;
+}
+
+nav ul a {
+  color: #636262;
+}
+
+.pokeball-background {
+  position: fixed;
+  z-index: -1;
+  top: 0;
+  right: 0;
+}
+
+.viewDetails {
+  display: block;
+}
+
+.pokemon-card {
+  margin: 40px 0 0;
+  padding: 12px;
+  border-radius: 20px;
+  background: grey;
+}
+
+.pokemon-card.steel, #pokemon-info.steel {
+  background: #9FACA9;
+}
+
+.pokemon-card.water, #pokemon-info.water {
+  background: #84C2FF;
+}
+
+.pokemon-card.bug, #pokemon-info.bug {
+  background: #CCD77B;
+}
+
+.pokemon-card.water, #pokemon-info.water {
+  background: #84C2FF;
+}
+
+.pokemon-card.dragon, #pokemon-info.dragon {
+  background: #C882F3;
+}
+
+.pokemon-card.electric, #pokemon-info.electric {
+  background: #EEC944;
+}
+
+.pokemon-card.ghost, #pokemon-info.ghost {
+  background: #7465CF;
+}
+
+.pokemon-card.fire, #pokemon-info.fire {
+  background: #FF8F7B;
+}
+
+.pokemon-card.fairy, #pokemon-info.fairy {
+  background: #EFAEFF;
+}
+
+.pokemon-card.ice, #pokemon-info.ice {
+  background: #AACEF1;
+}
+
+.pokemon-card.fight, #pokemon-info.fight {
+  background: #A99A89;
+}
+
+.pokemon-card.normal, #pokemon-info.normal {
+  background: #DAD7C9;
+}
+
+.pokemon-card.grass, #pokemon-info.grass {
+  background: #6BA497;
+}
+
+.pokemon-card.psychic, #pokemon-info.psychic {
+  background: #F44987;
+}
+
+.pokemon-card.rock, #pokemon-info.rock {
+  background: #898F71;
+}
+
+.pokemon-card.dark, #pokemon-info.dark {
+  background: #4F4A46;
+}
+
+.pokemon-card.ground, #pokemon-info.ground {
+  background: #C69C05;
+}
+
+.pokemon-card.poison, #pokemon-info.poison {
+  background: #7B30A9;
+}
+
+.pokemon-card.flying, #pokemon-info.flying {
+  background: #ADE2EE;
+}
+
+
+.pokemon-card .row {
+  margin-bottom: 0;
+}
+
+.pokemon-card > .number {  
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.2);
+  font-size: 16px;
+  line-height: 19px;
+  padding: 4px 16px 12px;
+  margin-bottom: 0;
+}
+
+.pokemon-card .avatar {
+  position: relative;
+}
+
+.pokemon-card .right {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.pokemon-card .right img{
+  position: relative;
+  z-index: 1;
+  cursor: pointer;
+}
+
+.pokemon-card .left{
+  color: white;
+  height: 123px;
+  padding-left: 16px;
+}
+
+.pokemon-card .left h5{
+  font-weight: bold;
+  margin-top: 0;
+  text-transform: capitalize;
+}
+
+.pokemon-card .left span{
+  display: block;
+  font-weight: bold;
+  border-radius: 25px;
+  padding: 8px 0;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.2);
+  margin: 8px 0;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+  text-transform: capitalize;
+}
+
+.pokebola-fondo {
+  position: absolute;
+  display: block;
+  bottom: -17px;
+  right: -1;
+  z-index: 0;
+}
+
+#pokemon-info {
+  position: relative;
+  display: none;
+}
+
+#pokemon-info > .row {
+  margin-bottom: 0;
+}
+
+.row .col.info-block-1{
+  padding-left: 40px;
+  height: 315px;
+}
+
+.info-block-1 h5{
+  color: white;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  margin-bottom: 40px;
+}
+
+.info-block-1 span{
+  color: white;
+  width: 96px;
+  height: 32px;
+  line-height: 32px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 50px;
+  margin-left: 8px;
+  margin-bottom: 8px;
+  text-transform: capitalize;
+  background: rgba(0,0,0,0.2);
+}
+
+.info-block-2 {
+  text-align: right;
+  position: relative;
+  height: 315px;
+}
+
+.info-block-2 span {
+  margin-top: 99px;
+  display: block;
+  font-size: 30px;
+  line-height: 35px;
+  color: #FEFEFE;
+}
+
+.info-block-2 img{
+  position: absolute;
+  bottom: -23px;
+  left: 0;
+  max-height: 80%;
+  z-index: 1;
+}
+
+.info-block-2 .pokebola {
+  position: absolute;
+  bottom: 0;
+  left: 92px;
+  z-index: 0;
+}
+
+.details {
+  background: white;
+  border-top-left-radius: 46px;
+  border-top-right-radius: 46px;
+  padding-top: 62px;
+}
+
+.details-tabs {
+  max-width: 700px;
+  display: block;
+  margin: 0 auto;
+}
+
+.tabs .tab a {
+  color: #6C6C6C;
+}
+
+.tabs .tab a:focus, .tabs .tab a:focus.active {
+  background: transparent;
+}
+
+.tabs .tab a:hover, .tabs .tab a.active {
+  color: #395FAA;
+}
+
+.tabs .indicator {
+  background: #395FAA;
+}
+
+td.abilities {
+    text-transform: capitalize;
+}
+
+@media only screen and (min-width: 992px) {
+  main > .container {
+    width: 90%;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  header, main, footer {
+    padding-left: 0;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .row .col.info-block-1{
+    height: initial;
+  }
+  .info-block-2 img{
+    left:28%;
+  }
+  .info-block-2 .pokebola{
+    left: 46%; 
+  }
+  .info-block-2 span {
+    margin-top: 0;
+  }
+  .info-block-2 {
+    margin-top: -37px;
+  }
+}
